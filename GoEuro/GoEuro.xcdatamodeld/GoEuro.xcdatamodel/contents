@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="15G31" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="TravelInfo" representedClassName=".TravelInfo" syncable="YES">
+        <attribute name="arrival" attributeType="String" syncable="YES"/>
+        <attribute name="departure" attributeType="String" syncable="YES"/>
+        <attribute name="logo" attributeType="String" syncable="YES"/>
+        <attribute name="price" attributeType="Float" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="stops" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="traveltime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="traveltimeindex" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="type" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="TravelInfo" positionX="-63" positionY="-18" width="128" height="165"/>
+    </elements>
+</model>

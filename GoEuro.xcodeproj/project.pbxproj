@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C4747E31E2B6445003F2F07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4747E21E2B6445003F2F07 /* AppDelegate.swift */; };
+		3C4747E51E2B6445003F2F07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4747E41E2B6445003F2F07 /* ViewController.swift */; };
+		3C4747E81E2B6445003F2F07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4747E61E2B6445003F2F07 /* Main.storyboard */; };
+		3C4747EA1E2B6445003F2F07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C4747E91E2B6445003F2F07 /* Assets.xcassets */; };
+		3C4747ED1E2B6445003F2F07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4747EB1E2B6445003F2F07 /* LaunchScreen.storyboard */; };
+		3C4747F71E2B78BA003F2F07 /* GEPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4747F61E2B78BA003F2F07 /* GEPageVC.swift */; };
+		3C4747F91E2B897E003F2F07 /* GEListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4747F81E2B897E003F2F07 /* GEListVC.swift */; };
+		3C4747FC1E2BEB75003F2F07 /* GEResultListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4747FB1E2BEB75003F2F07 /* GEResultListCell.swift */; };
+		3C4747FE1E2C2302003F2F07 /* GESegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4747FD1E2C2302003F2F07 /* GESegmentControl.swift */; };
+		4912F0991E2D2DEA00879F50 /* GoEuro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4912F0971E2D2DEA00879F50 /* GoEuro.xcdatamodeld */; };
+		4912F09B1E2D2E4200879F50 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4912F09A1E2D2E4200879F50 /* CoreDataManager.swift */; };
+		4912F09D1E2D2E9F00879F50 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4912F09C1E2D2E9F00879F50 /* CoreDataStack.swift */; };
+		4912F09F1E2D2ECC00879F50 /* TravelInfo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4912F09E1E2D2ECC00879F50 /* TravelInfo+CoreDataClass.swift */; };
+		4912F0A11E2D2F2600879F50 /* TravelInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4912F0A01E2D2F2600879F50 /* TravelInfo+CoreDataProperties.swift */; };
+		4912F0A41E2D2F5700879F50 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4912F0A31E2D2F5700879F50 /* Helper.swift */; };
+		4912F0A71E2D2F9A00879F50 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4912F0A61E2D2F9A00879F50 /* Constants.swift */; };
+		4912F0A91E2D2FBC00879F50 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4912F0A81E2D2FBC00879F50 /* Settings.swift */; };
+		4912F0AB1E2D2FD600879F50 /* Gateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4912F0AA1E2D2FD600879F50 /* Gateway.swift */; };
+		4912F0AD1E2D2FEE00879F50 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4912F0AC1E2D2FEE00879F50 /* Client.swift */; };
+		49FCD91B1E33618F0065F47B /* UITabelView+LoadAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FCD91A1E33618F0065F47B /* UITabelView+LoadAnimation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C4747DF1E2B6444003F2F07 /* GoEuro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoEuro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C4747E21E2B6445003F2F07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C4747E41E2B6445003F2F07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C4747E71E2B6445003F2F07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C4747E91E2B6445003F2F07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C4747EC1E2B6445003F2F07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C4747EE1E2B6445003F2F07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C4747F61E2B78BA003F2F07 /* GEPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GEPageVC.swift; path = Views/GEPageVC.swift; sourceTree = "<group>"; };
+		3C4747F81E2B897E003F2F07 /* GEListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GEListVC.swift; path = Views/GEListVC.swift; sourceTree = "<group>"; };
+		3C4747FB1E2BEB75003F2F07 /* GEResultListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GEResultListCell.swift; path = TableCells/GEResultListCell.swift; sourceTree = "<group>"; };
+		3C4747FD1E2C2302003F2F07 /* GESegmentControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GESegmentControl.swift; path = Views/GESegmentControl.swift; sourceTree = "<group>"; };
+		4912F0981E2D2DEA00879F50 /* GoEuro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoEuro.xcdatamodel; sourceTree = "<group>"; };
+		4912F09A1E2D2E4200879F50 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataManager.swift; path = CoreData/CoreDataManager.swift; sourceTree = "<group>"; };
+		4912F09C1E2D2E9F00879F50 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataStack.swift; path = CoreData/CoreDataStack.swift; sourceTree = "<group>"; };
+		4912F09E1E2D2ECC00879F50 /* TravelInfo+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TravelInfo+CoreDataClass.swift"; path = "CoreData/TravelInfo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4912F0A01E2D2F2600879F50 /* TravelInfo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TravelInfo+CoreDataProperties.swift"; path = "CoreData/TravelInfo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4912F0A31E2D2F5700879F50 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = Helpers/Helper.swift; sourceTree = "<group>"; };
+		4912F0A61E2D2F9A00879F50 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Connection/Constants.swift; sourceTree = "<group>"; };
+		4912F0A81E2D2FBC00879F50 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Settings.swift; path = Connection/Settings.swift; sourceTree = "<group>"; };
+		4912F0AA1E2D2FD600879F50 /* Gateway.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Gateway.swift; path = Connection/Gateway.swift; sourceTree = "<group>"; };
+		4912F0AC1E2D2FEE00879F50 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Client.swift; path = Connection/Client.swift; sourceTree = "<group>"; };
+		49FCD91A1E33618F0065F47B /* UITabelView+LoadAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITabelView+LoadAnimation.swift"; path = "Views/Extensions/UITabelView+LoadAnimation.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C4747DC1E2B6444003F2F07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C4747D61E2B6444003F2F07 = {
+			isa = PBXGroup;
+			children = (
+				3C4747E11E2B6445003F2F07 /* GoEuro */,
+				3C4747E01E2B6444003F2F07 /* Products */,
+				B758C75398358447E2AF66DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C4747E01E2B6444003F2F07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C4747DF1E2B6444003F2F07 /* GoEuro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C4747E11E2B6445003F2F07 /* GoEuro */ = {
+			isa = PBXGroup;
+			children = (
+				4912F0A51E2D2F7A00879F50 /* Connection */,
+				4912F0A21E2D2F3600879F50 /* Helpers */,
+				4912F0961E2D2D8300879F50 /* CoreData */,
+				3C4747FA1E2BEB1C003F2F07 /* Table Cells */,
+				3C4747F41E2B7806003F2F07 /* Views */,
+				3C4747E21E2B6445003F2F07 /* AppDelegate.swift */,
+				3C4747E41E2B6445003F2F07 /* ViewController.swift */,
+				3C4747E61E2B6445003F2F07 /* Main.storyboard */,
+				3C4747E91E2B6445003F2F07 /* Assets.xcassets */,
+				3C4747EB1E2B6445003F2F07 /* LaunchScreen.storyboard */,
+				3C4747EE1E2B6445003F2F07 /* Info.plist */,
+			);
+			path = GoEuro;
+			sourceTree = "<group>";
+		};
+		3C4747F41E2B7806003F2F07 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49FCD9191E33616A0065F47B /* Extensions */,
+				3C4747FD1E2C2302003F2F07 /* GESegmentControl.swift */,
+				3C4747F61E2B78BA003F2F07 /* GEPageVC.swift */,
+				3C4747F81E2B897E003F2F07 /* GEListVC.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3C4747FA1E2BEB1C003F2F07 /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3C4747FB1E2BEB75003F2F07 /* GEResultListCell.swift */,
+			);
+			name = "Table Cells";
+			sourceTree = "<group>";
+		};
+		4912F0961E2D2D8300879F50 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				4912F0971E2D2DEA00879F50 /* GoEuro.xcdatamodeld */,
+				4912F09A1E2D2E4200879F50 /* CoreDataManager.swift */,
+				4912F09C1E2D2E9F00879F50 /* CoreDataStack.swift */,
+				4912F09E1E2D2ECC00879F50 /* TravelInfo+CoreDataClass.swift */,
+				4912F0A01E2D2F2600879F50 /* TravelInfo+CoreDataProperties.swift */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		4912F0A21E2D2F3600879F50 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4912F0A31E2D2F5700879F50 /* Helper.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		4912F0A51E2D2F7A00879F50 /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				4912F0A61E2D2F9A00879F50 /* Constants.swift */,
+				4912F0A81E2D2FBC00879F50 /* Settings.swift */,
+				4912F0AA1E2D2FD600879F50 /* Gateway.swift */,
+				4912F0AC1E2D2FEE00879F50 /* Client.swift */,
+			);
+			name = Connection;
+			sourceTree = "<group>";
+		};
+		49FCD9191E33616A0065F47B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				49FCD91A1E33618F0065F47B /* UITabelView+LoadAnimation.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		B758C75398358447E2AF66DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C4747DE1E2B6444003F2F07 /* GoEuro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C4747F11E2B6445003F2F07 /* Build configuration list for PBXNativeTarget "GoEuro" */;
+			buildPhases = (
+				3C4747DB1E2B6444003F2F07 /* Sources */,
+				3C4747DC1E2B6444003F2F07 /* Frameworks */,
+				3C4747DD1E2B6444003F2F07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoEuro;
+			productName = GoEuro;
+			productReference = 3C4747DF1E2B6444003F2F07 /* GoEuro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C4747D71E2B6444003F2F07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Rachit Vyas";
+				TargetAttributes = {
+					3C4747DE1E2B6444003F2F07 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TWVNQD8F48;
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = 3C4747DA1E2B6444003F2F07 /* Build configuration list for PBXProject "GoEuro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C4747D61E2B6444003F2F07;
+			productRefGroup = 3C4747E01E2B6444003F2F07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C4747DE1E2B6444003F2F07 /* GoEuro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C4747DD1E2B6444003F2F07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C4747ED1E2B6445003F2F07 /* LaunchScreen.storyboard in Resources */,
+				3C4747EA1E2B6445003F2F07 /* Assets.xcassets in Resources */,
+				3C4747E81E2B6445003F2F07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C4747DB1E2B6444003F2F07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C4747F71E2B78BA003F2F07 /* GEPageVC.swift in Sources */,
+				3C4747E51E2B6445003F2F07 /* ViewController.swift in Sources */,
+				3C4747FC1E2BEB75003F2F07 /* GEResultListCell.swift in Sources */,
+				4912F09D1E2D2E9F00879F50 /* CoreDataStack.swift in Sources */,
+				4912F0AB1E2D2FD600879F50 /* Gateway.swift in Sources */,
+				4912F0A91E2D2FBC00879F50 /* Settings.swift in Sources */,
+				4912F0AD1E2D2FEE00879F50 /* Client.swift in Sources */,
+				4912F0991E2D2DEA00879F50 /* GoEuro.xcdatamodeld in Sources */,
+				4912F09F1E2D2ECC00879F50 /* TravelInfo+CoreDataClass.swift in Sources */,
+				3C4747FE1E2C2302003F2F07 /* GESegmentControl.swift in Sources */,
+				4912F0A71E2D2F9A00879F50 /* Constants.swift in Sources */,
+				49FCD91B1E33618F0065F47B /* UITabelView+LoadAnimation.swift in Sources */,
+				3C4747F91E2B897E003F2F07 /* GEListVC.swift in Sources */,
+				4912F0A11E2D2F2600879F50 /* TravelInfo+CoreDataProperties.swift in Sources */,
+				4912F09B1E2D2E4200879F50 /* CoreDataManager.swift in Sources */,
+				3C4747E31E2B6445003F2F07 /* AppDelegate.swift in Sources */,
+				4912F0A41E2D2F5700879F50 /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C4747E61E2B6445003F2F07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C4747E71E2B6445003F2F07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C4747EB1E2B6445003F2F07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C4747EC1E2B6445003F2F07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C4747EF1E2B6445003F2F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C4747F01E2B6445003F2F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C4747F21E2B6445003F2F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TWVNQD8F48;
+				INFOPLIST_FILE = GoEuro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inkaas.dev.only.GoEuro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3C4747F31E2B6445003F2F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TWVNQD8F48;
+				INFOPLIST_FILE = GoEuro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inkaas.dev.only.GoEuro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C4747DA1E2B6444003F2F07 /* Build configuration list for PBXProject "GoEuro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C4747EF1E2B6445003F2F07 /* Debug */,
+				3C4747F01E2B6445003F2F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C4747F11E2B6445003F2F07 /* Build configuration list for PBXNativeTarget "GoEuro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C4747F21E2B6445003F2F07 /* Debug */,
+				3C4747F31E2B6445003F2F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4912F0971E2D2DEA00879F50 /* GoEuro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4912F0981E2D2DEA00879F50 /* GoEuro.xcdatamodel */,
+			);
+			currentVersion = 4912F0981E2D2DEA00879F50 /* GoEuro.xcdatamodel */;
+			path = GoEuro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3C4747D71E2B6444003F2F07 /* Project object */;
+}
